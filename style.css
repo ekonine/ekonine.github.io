@@ -1,102 +1,27 @@
-body {
-    margin: auto;
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
+.done {
+  text-decoration: line-through;
 }
 
-.zone {
-    color:#FFF;
-    font-size:2em;
-    font-family: "Playfair Display";
-}
-
-.navigation {
-    display: flex;
-    flex-direction: row;
-}
-
-.nav_items {
-    padding: 20px;
-}
-
-/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
-/***********************************************************************
- *  Green Background
- **********************************************************************/
-.green{
-    display: flex;
-    background: black;
-    justify-content: flex-end;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    margin: auto;
-    width: 100%;
-}
-
-/***********************************************************************
- *  Red Background
- **********************************************************************/
-.red{
-    display: flex;
-    background: #AA3939;
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
-    height: 70vh;
-}
-
-/***********************************************************************
- *  Yellow Background
- **********************************************************************/
-.yellow{
-    display: flex;
-    background: black;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid white;
-}
-
-/***********************************************************************
- *  Blue Background
- **********************************************************************/
-.blue{
-    display: grid;
-    background: black;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    align-items: center;
-}
-
-.project_items {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-template-rows: 1fr;
-    grid-gap: 20px;
-    justify-items: center;
-    justify-content: space-evenly;
-}
-
-.images {
-    height: 70px;
-    width: 70px;
-}
-
-.box {
-    display: grid;
-    background-color: grey;
-    border: 1px solid white;
-    border-radius: 30px;
-    height: 400px;
-    width: 400px;
-    justify-items: center;
-    align-content: center;
-    transition: all 0.3s;
-}
-
-.box:hover {
-    transform: scale(1.07);
+.deleteButton {
+  margin-left: 20px;
 }
